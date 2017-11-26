@@ -1,0 +1,5 @@
+*.pyc
+credentials
+*.log
+*.sqlite3
+.idea
