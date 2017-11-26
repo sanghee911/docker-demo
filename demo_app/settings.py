@@ -88,6 +88,7 @@ if 'DATABASE_HOST' in os.environ:
     DATABASES['default']['NAME'] = os.getenv('DATABASE_NAME')
     DATABASES['default']['USER'] = os.getenv('DATABASE_USER')
     DATABASES['default']['PASSWORD'] = os.getenv('DATABASE_PASSWORD')
+    DATABASES['default']['PORT'] = 5432
 
 
 
